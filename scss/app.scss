@@ -1,0 +1,36 @@
+$border-radius:1rem;
+$border-width : 0.3px;
+
+$border-color : grey;
+$font-family:'Outfit', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+// @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+.card{
+    background-color:hsl(216, 50%, 16%);
+}
+
+.card img{
+   border-radius: 18px;
+}
+
+.ETH{
+    color:hsl(178, 100%, 50%);
+}
+
+p{
+    font-size:18px;
+}
+
+
+
+
+// .card-body{
+//     padding:0;
+// }
